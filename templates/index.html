@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to the Card Shop!</h1>
+    </div>
+
+    <div class="card-deck" style="width: 70rem;">
+        <div class="card">
+            <img class="card-img-top" src="static/red.jpeg" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Red Playing Card</h4>
+                <p class="card-text">Like what you see?</p>
+                <a href="/shop" class="btn btn-primary">Go to shop</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="static/blue.jpeg" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Blue Playing Card</h4>
+                <p class="card-text">Like what you see?</p>
+                <a href="/shop" class="btn btn-primary">Go to shop</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="static/black.jpeg" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Black Playing Card</h4>
+                <p class="card-text">Like what you see?</p>
+                <a href="/shop" class="btn btn-primary">Go to shop</a>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+
